@@ -1,5 +1,5 @@
 :root {
-    --UofUred: var(--UofUred);
+    --UofUred: #A12D37;
 }
 
 body {
@@ -8,7 +8,6 @@ body {
 
     div.container {
         Width: 780px;
-        Border: 1px dotted hotpink;
         margin: 0 auto; /*tb rl*/
         background-color: white;
 
@@ -60,8 +59,6 @@ body {
                 padding: 10px 10px 10px 15px;
 
                 aside {
-                    border: 1px solid black;
-
                     &.left {
                         width: 30%;
                         float: left;
@@ -113,6 +110,8 @@ body {
 
                             &.link {
                                 text-align: right;
+                                text-transform: uppercase;
+                                color: var(--UofUred);
                             }
 
                             a {
