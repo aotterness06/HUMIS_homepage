@@ -33,6 +33,8 @@ body {
                     border-right: #B4B697 1px solid;
 
                     nav {
+                        margin-top: 20px;
+
                         a {
                             display: block;
                             color: black;
@@ -45,6 +47,10 @@ body {
                             &:hover {
                                 background-color: #505A2F;
                                 color: white;
+                            }
+
+                            &.active{
+                                font-weight: bold;
                             }
 
                         }
