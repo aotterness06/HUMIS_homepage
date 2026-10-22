@@ -80,3 +80,17 @@ section.horizontal-two-column-layout {
     }
 
 }
+
+section.contact-form{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    border: 4px solid green;
+    gap: 1rem;
+
+    label {
+        display: flex;
+        gap: 1rem;
+    }
+
+}
