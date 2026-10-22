@@ -40,6 +40,23 @@ body {
     p {
         text-align: justify;
         font-size: 0.75rem;
+
+        .shrug{
+            font-size: 1.25rem;
+            color: var(--burgundy);
+            font-weight: bold;
+        }
+
+        &.learn-more{
+            text-align: right;
+
+            a{
+                &:hover{
+                    text-decoration: underline;
+                    color: var(--burgundy);
+                }
+            }
+        }
     }
 
 
