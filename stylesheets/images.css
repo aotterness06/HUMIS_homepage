@@ -18,7 +18,7 @@ main {
 
         &.right {
             float: right;
-            margin: 0 0 5px 15px;
+
             img{
                 border-radius: 10px 0 35px 5px;
             }
