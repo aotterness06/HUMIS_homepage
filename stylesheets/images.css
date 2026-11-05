@@ -4,13 +4,14 @@ main {
         display: inline-block;
         max-width: 150px;
 
-    > img {
-        width: 100%;
-    }
+        > img {
+            width: 100%;
+        }
 
         &.left {
             float: left;
             margin: 0 15px 5px 0;
+
             img {
                 border-radius: 10px 0 35px 5px;
             }
@@ -18,8 +19,9 @@ main {
 
         &.right {
             float: right;
+            margin: 0 0 5px 15px;
 
-            img{
+            img {
                 border-radius: 10px 0 35px 5px;
             }
         }
@@ -29,10 +31,9 @@ main {
         }
 
         &:hover {
-            h6{
+            h6 {
                 text-decoration: underline;
             }
         }
     }
-
 }

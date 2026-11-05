@@ -6,46 +6,48 @@
     <link rel="stylesheet" href="stylesheets/inner-styles.css">
     <link rel="stylesheet" href="stylesheets/typography.css">
 
-  <style>
+    <style>
 
-      main {
-          nav.inner-nav {
-              display: flex;
-              gap: 10px;
-              font-size: 11px;
-              color: var(--burgundy);
-             border-bottom: 2px solid black;
-              padding-bottom: 15px;
+        main {
+            nav.inner-nav {
+                display: flex;
+                gap: 10px;
+                font-size: 11px;
+                color: var(--burgundy);
+                border-bottom: 2px solid black;
+                padding-bottom: 15px;
 
-              a{
-                  text-transform:uppercase;
-                  color: var(--burgundy);
-                  &:hover{
-                      text-decoration: underline;
-                  }
-              }
+                a {
+                    text-transform: uppercase;
+                    color: var(--burgundy);
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
 
 
+            }
 
-          }
-          section.content {
-              display: flex;
-              flex-direction: column;
-              gap: 0.5rem;
-              div {
-                  h6 {
-                      color: black;
-                  }
+            section.content {
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
 
-                  p {
-                      margin: 0;
-                  }
-              }
-          }
+                div {
+                    h6 {
+                        color: black;
+                    }
 
-      }
+                    p {
+                        margin: 0;
+                    }
+                }
+            }
 
-  </style>
+        }
+
+    </style>
 
 </head>
 <body>
@@ -54,16 +56,16 @@
 
     <header>
         <a href="index.html">
-        <img src="files/historyHeader.gif" alt="History Homepage"/>
+            <img src="files/historyHeader.gif" alt="History Homepage"/>
         </a>
-       <img src="files/histBooks01.jpg" alt="History Homepage"/>
+        <img src="files/histBooks01.jpg" alt="History Homepage"/>
     </header>
 
     <section class="middle">
 
-        <section class ="left">
+        <section class="left">
             <nav>
-                <a href="#">About us</a>
+                <a href="about-us.html">About us</a>
                 <a href="staff.html">Faculty &amp; staff </a>
                 <a href="#">Undergraduate students</a>
                 <a href="#">Graduate students</a>
@@ -88,18 +90,18 @@
         </section>
 
 
-        <section class = "right">
-            <nav class = "secondary top-nav">
+        <section class="right">
+            <nav class="secondary top-nav">
                 <a href="#">Campus directory</a>
                 <a href="#">Department calendar</a>
-                <a href="contact-us.html">Contact us</a>
+                <a href="contact-us.html" class="active">Contact us</a>
                 <a href="#">
                     <img src="files/u_small.gif" alt="U of U Logo"/>
                 </a>
             </nav>
 
             <main>
-                <nav class = "inner-nav">
+                <nav class="inner-nav">
                     <a href="#">Contact information</a>
                     |
                     <a href="#">Faculty directory</a>
@@ -109,50 +111,50 @@
                 </nav>
 
                 <section class="content">
-                <h3>Contact Information</h3>
+                    <h3>Contact Information</h3>
 
-                <div>
-                    <h6>U.S. MAIL</h6>
-                    <p>
-                        University of Utah<br/>
-                        Department of History<br/>
-                        380 S 1400 E RM 211<br/>
-                        Salt Lake City, UT 84112-0311
-                    </p>
-                </div>
+                    <div>
+                        <h6>U.S. MAIL</h6>
+                        <p>
+                            University of Utah<br/>
+                            Department of History<br/>
+                            380 S 1400 E RM 211<br/>
+                            Salt Lake City, UT 84112-0311
+                        </p>
+                    </div>
 
-                <div>
-                    <h6>CAMPUS MAIL</h6>
-                    <p>
-                        Department of History
-                        211 C HALL
-                    </p>
-                </div>
+                    <div>
+                        <h6>CAMPUS MAIL</h6>
+                        <p>
+                            Department of History
+                            211 C HALL
+                        </p>
+                    </div>
 
-                <div>
-                    <h6>PHONE</h6>
-                    <p>(801) 581-6121</p>
+                    <div>
+                        <h6>PHONE</h6>
+                        <p>(801) 581-6121</p>
 
-                    <h6>FAX</h6>
-                    <p>(801) 585-0580</p>
-                </div>
+                        <h6>FAX</h6>
+                        <p>(801) 585-0580</p>
+                    </div>
 
-                <div>
-                    <h6>HOURS</h6>
-                    <p>Monday - Friday
-                        8:00 AM - 5:00 PM</p>
-                </div>
+                    <div>
+                        <h6>HOURS</h6>
+                        <p>Monday - Friday
+                            8:00 AM - 5:00 PM</p>
+                    </div>
                 </section>
 
                 <form class="contact-form">
                     <label>
-                    Name:
-                    <input type="text" name="name" placeholder="Enter your name"/>
+                        Name:
+                        <input type="text" name="name" placeholder="Enter your name"/>
                     </label>
 
                     <label>
-                    Phone:
-                    <input type="checkbox" name="phone" placeholder="Enter your phone number"/>
+                        Phone:
+                        <input type="checkbox" name="phone" placeholder="Enter your phone number"/>
                     </label>
 
                     <label>
@@ -174,7 +176,7 @@
 
             </main>
 
-            <nav class = "secondary bottom-nav">
+            <nav class="secondary bottom-nav">
                 <a href="#">Disclaimer</a>
                 <a href="#">Text only</a>
                 <a href="#">Webmaster</a>

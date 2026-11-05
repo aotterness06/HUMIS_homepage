@@ -1,12 +1,12 @@
 section.horizontal-two-column-layout {
-    border: 3px dashed darkgray;
+    /*border: 3px dashed darkgray;*/
     display: flex;
     min-height: 100%;
     gap: 1px;
 
-    aside{
+    aside {
 
-        &.left-column{
+        &.left-column {
             width: 30%;
             display: flex;
             flex-direction: column;
@@ -16,8 +16,8 @@ section.horizontal-two-column-layout {
                 text-align: left;
             }
 
-            div.top{
-                div.category{
+            div.top {
+                div.category {
                     a {
                         display: block;
                         text-decoration: none;
@@ -49,39 +49,40 @@ section.horizontal-two-column-layout {
 
             div.bottom {
 
-            p{
-                font-size: 0.5rem;
-                span {
-                    display: block;
+                p {
+                    font-size: 0.5rem;
 
-                    &.name {
-                        font-weight: bold;
-                        font-size: 0.6rem;
+                    span {
+                        display: block;
+
+                        &.name {
+                            font-weight: bold;
+                            font-size: 0.6rem;
+                        }
+
+                        a {
+                            display: block;
+                            color: black;
+                            text-decoration: none;
+
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
+
                     }
-
-                   a{
-                       display: block;
-                       color: black;
-                       text-decoration: none;
-
-                       &:hover {
-                           text-decoration: underline;
-                       }
-                   }
-
                 }
-            }
             }
         }
 
-        &.right-column{
+        &.right-column {
             width: 70%;
         }
     }
 
 }
 
-form.contact-form{
+form.contact-form {
     margin-top: 5rem;
     display: flex;
     flex-direction: column;
