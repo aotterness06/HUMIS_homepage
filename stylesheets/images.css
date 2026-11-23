@@ -23,6 +23,7 @@ main {
 
             img {
                 border-radius: 10px 0 35px 5px;
+                max-width: 50%;
             }
         }
 

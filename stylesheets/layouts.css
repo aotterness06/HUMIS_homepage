@@ -7,7 +7,7 @@ section.horizontal-two-column-layout {
     aside {
 
         &.left-column {
-            width: 30%;
+            width: 40%;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -22,7 +22,8 @@ section.horizontal-two-column-layout {
                         display: block;
                         text-decoration: none;
                         color: black;
-                        font-size: 0.75rem;
+                        font-size: 13px;
+                        margin-bottom: 0.5rem;
 
                         &:hover {
                             text-decoration: underline;
@@ -50,14 +51,14 @@ section.horizontal-two-column-layout {
             div.bottom {
 
                 p {
-                    font-size: 0.5rem;
+                    font-size: 14px;
 
                     span {
                         display: block;
 
                         &.name {
                             font-weight: bold;
-                            font-size: 0.6rem;
+                            font-size: 15px;
                         }
 
                         a {
@@ -76,7 +77,16 @@ section.horizontal-two-column-layout {
         }
 
         &.right-column {
-            width: 70%;
+            width: 60%;
+            border-left: 2px dashed dimgray;
+            padding-left: 10px;
+
+            img {
+                max-width: 100%;
+                border-radius: 5%;
+                margin-bottom: 1rem;
+            }
+
         }
     }
 
