@@ -78,8 +78,19 @@ section.horizontal-two-column-layout {
 
         &.right-column {
             width: 60%;
-            border-left: 2px dashed dimgray;
+            border-left: 1px dashed dimgray;
             padding-left: 10px;
+
+            div.icon{
+                display: flex;
+                img{
+                    max-width: 20px;
+                }
+
+                h5{
+                    font-size: 14px;
+                }
+            }
 
             img {
                 max-width: 100%;
